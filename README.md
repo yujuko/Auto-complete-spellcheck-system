@@ -18,9 +18,11 @@ if we cannot find anything that matches your input in our sentenceTrie,
 we will try to match it with our wordTrie as long as the input does not contain whitespaces. 
 If we still cannot find anything, we will tell you that we cannot find it in our database, 
 just like when something rare is entered into the google search bar, google will not provide any suggestions 
-in the drop-down menu. If you finish your input, please add a “#” at the end to indicate that you have finished. 
-And we will then do the spell-check for your input with our wordTrie. We will break up your input by whitespace and 
-check word by word. If we found something that might be wrong, we will print that in our console.
+in the drop-down menu. 
+
+If you finish your input, please add a “#” at the end to indicate that you have finished. 
+And we will then do the spell-check for your input with our wordTrie. 
+We will break up your input by whitespace and check word by word. If we found something that might be wrong, we will print that in our console.
 Note that for simplicity of the process, we only accept English characters (upper case is fine, 
 but we will change it into lower case and then try to match), whitespaces and #, other characters 
 including digits are considered invalid input.
